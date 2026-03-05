@@ -95,10 +95,13 @@ body > .container {
 /* barvy kategorií reagují na modifikátory */
 
 .news-item--school {
+    --category-accent: var(--color-accent3);
 }
 
 .news-item--engineering {
+    --category-accent: var(--color-accent2); 
 }
 
 .news-item--success {
+    --category-accent: var(--color-accent1);
 }
